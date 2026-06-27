@@ -1,0 +1,25 @@
+#Binarios
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+bin/
+
+#Carpetas de air
+tmp/
+*.log
+
+#Base de datos
+gorm.db
+*.db
+*.db-journal
+*.db-wal
+
+#Variables de entorno
+.env
+.env.local
+
+#Archivos de configuración del editor 
+.vscode/
